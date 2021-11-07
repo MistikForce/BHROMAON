@@ -80,6 +80,15 @@
   }
 }
 @media screen and (max-width: 800px) {
+  #main_menu {
+    display: none;
+  }
+
+  #hamburger_menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 800px) {
   .header_nav {
     height: 80px;
     font-family: "Aleo", sans-serif;

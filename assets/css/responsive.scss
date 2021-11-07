@@ -94,6 +94,14 @@ $base_size:16;//коэффициент по умолчанию
     }
 }
 
+@media screen and (max-width:800px){
+    #main_menu {
+        display: none;
+    }
+    #hamburger_menu {
+        display: block;
+    }
+}
 @media screen and (max-width: 800px){
     .header_nav {
         height: 80px;
@@ -112,6 +120,7 @@ $base_size:16;//коэффициент по умолчанию
         ul {
             gap: 20px;
         }
+        
     }
     .spain_1,
     .spain_2 {
