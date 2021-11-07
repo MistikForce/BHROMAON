@@ -1,0 +1,132 @@
+$base_size:16;//коэффициент по умолчанию
+@mixin fz($size_px) {
+    font-size: ($size_px/$base_size)+rem;
+}
+
+@media screen and (max-width: 1185px){
+    .rewiev {
+        padding: 114px 0 200px;
+        h2 {
+            margin-bottom: 93px;
+        }
+        .card {
+            blockquote {
+                padding: 35px 40px 0px 40px;
+                text-align: justify;
+            }
+            .author {
+                margin-bottom: 20px;
+            }
+           
+        }
+    }
+    footer {
+        padding: 10% 0 5%;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .choose_us {
+        .wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+        }
+        padding: 10% 0;
+        .col_left {
+            padding-top: 0px;
+        }
+    }
+
+    .tools {
+        padding-bottom: 6%;
+        .wrap_top {
+            padding: 0px 10%;
+        }
+        .wrap_bot {
+            padding: 15px 5.5%;
+            h3 {
+                @include fz(26);
+            }
+        }
+    }
+
+    .spain_1,
+    .spain_2 {
+        padding: 17% 0 10%;
+    }
+
+    .rewiev {
+        h2 {
+            margin-bottom: 93px;
+        }
+        .card {
+            blockquote {
+                padding: 20px 20px 0px 20px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .rewiev {
+        padding: 10% 0 15%;
+        h2 {
+            margin-bottom: 7%;
+        }
+        .card {
+            margin: 0 auto;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            img {
+                width: 100%;
+            }
+            blockquote {
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header_nav {
+        height: 80px;
+        font-family: 'Aleo', sans-serif;
+        background-color: #5474fd;
+        overflow: hidden;
+        .wrap {
+            display: flex;
+            justify-content: space-between;
+            line-height: 80px;
+        }
+        .logo {
+            width: 140px;
+            padding: 30px 0;
+        }
+        ul {
+            gap: 20px;
+        }
+    }
+    .spain_1,
+    .spain_2 {
+        padding: 15% 0 10%;
+        .item {
+            padding: 30px;
+            .overhead {
+                margin-bottom: 20px;
+            }
+            h5 {
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
