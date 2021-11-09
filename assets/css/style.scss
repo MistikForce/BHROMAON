@@ -132,7 +132,7 @@ a:focus {
     width: 100%;
     box-shadow: 0 0 10px #3333338e;
     max-width: 350px;
-    transition: all .4 ease;
+    transition: all .4s ease;
     z-index: 1000;
     &.top {
         max-width: 100%;
