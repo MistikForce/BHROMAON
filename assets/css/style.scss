@@ -87,10 +87,10 @@ body {
         outline: 3px solid #fff;
     }
 }
-
-a:focus {
-    outline: 3px solid #fff;
-}
+// не нравится что фокус остается после клика
+// a:focus {
+//     outline: 3px solid #fff;
+// }
 
 /*====================mobile===============*/
 

@@ -185,10 +185,6 @@ body {
   outline: 3px solid #fff;
 }
 
-a:focus {
-  outline: 3px solid #fff;
-}
-
 /*====================mobile===============*/
 #hamburger_menu {
   display: none;
