@@ -1,3 +1,4 @@
 User-agent: *
 alow: /
+host: https://mistikforce.github.io/
 sitemap: https://mistikforce.github.io/bhromaon/sitemap.xml
