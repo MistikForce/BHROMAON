@@ -371,6 +371,12 @@ a:focus {
   letter-spacing: 2px;
   border: 2px solid transparent;
 }
+.header_top input:focus {
+  font-size: 1.625rem;
+}
+.header_top input:focus::placeholder {
+  color: transparent;
+}
 .header_top .btn_header {
   display: -webkit-box;
   display: -ms-flexbox;

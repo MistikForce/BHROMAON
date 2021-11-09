@@ -282,6 +282,12 @@ a:focus {
         color: #999999;
         letter-spacing: 2px;
         border: 2px solid transparent;
+        &:focus {
+            @include fz(26);
+        }
+        &:focus::placeholder {
+            color: transparent;
+        }
     }
     .btn_header {
         display: -webkit-box;
