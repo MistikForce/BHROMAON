@@ -332,6 +332,7 @@
   .tools .wrap_top a {
     display: block;
     padding: 5px 15px;
+    padding-left: 0;
   }
   .tools .wrap_bot {
     -webkit-box-orient: vertical;
