@@ -29,9 +29,15 @@ $base_size:16;//коэффициент по умолчанию
 @media screen and (max-width: 1000px){
     .choose_us {
         .wrap {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 30px;
         }
         padding: 10% 0;
@@ -80,9 +86,16 @@ $base_size:16;//коэффициент по умолчанию
         .card {
             margin: 0 auto;
             width: 90%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             text-align: left;
             img {
                 width: 100%;
@@ -100,8 +113,12 @@ $base_size:16;//коэффициент по умолчанию
         background-color: #5474fd;
         overflow: hidden;
         .wrap {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             line-height: 80px;
         }
         .logo {
@@ -192,7 +209,8 @@ $base_size:16;//коэффициент по умолчанию
     .choose_us {
         padding: 10% 0;
         .wrap {
-            flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
             gap: 0px;
         }
         .col_left {
@@ -209,6 +227,8 @@ $base_size:16;//коэффициент по умолчанию
         .col_right {
             max-width: 100%;
             width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             .pic_1 {
                 margin-right: 10px;
@@ -252,9 +272,16 @@ $base_size:16;//коэффициент по умолчанию
         .card {
             margin: 0 auto;
             width: 90%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             text-align: left;
             .pic {
                 max-width: 100%;
@@ -272,8 +299,13 @@ $base_size:16;//коэффициент по умолчанию
 @media screen and (max-width: 500px){
     .choose_us {
         .col_right {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             gap: 10px;
             .pic_1,
             .pic_2 {
@@ -292,11 +324,18 @@ $base_size:16;//коэффициент по умолчанию
 @media screen and (max-width: 450px){ 
     .tools {
         .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         }
         .wrap_top {
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             gap: 10px;
             padding: 0;
             .icon {
@@ -305,7 +344,9 @@ $base_size:16;//коэффициент по умолчанию
                     height: 62px;
                 }
                 &:hover svg{
-                    transform: none;
+                    -webkit-transform: none;
+                        -ms-transform: none;
+                            transform: none;
                 }
             }
             a {
@@ -314,7 +355,10 @@ $base_size:16;//коэффициент по умолчанию
             }
         }
         .wrap_bot {
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             gap: 5px;
             padding: 5px 0;
             .text {

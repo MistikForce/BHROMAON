@@ -13,8 +13,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <base href="https://mistikforce.github.io/bhromaon/">
-
     <meta name="robots" content="all">
     <meta name="revisit-after" content="7 days">
     
@@ -65,11 +63,11 @@
                     <div class="sublogo">Safe Travel Anywhere</div>
                 </div>
                 <div class="search">
-                    <form action="base.php" method="post" enctype="text/plain">
+                    <form action="base.php" method="get" enctype="text/plain">
                         <input type="search" name="search" placeholder="Search Your Travel Destination">
-                        <button type="button" class="btn_header">
+                        <button type="submit" class="btn_header" value="search">
                             <span>search</span>
-                            <svg><use xlink:href="assets/images/sprite.svg#search"></use></svg>
+                            <svg><use href="assets/images/sprite.svg#search"></use></svg>
                         </button>
                     </form>
                 </div>
